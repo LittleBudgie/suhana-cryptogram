@@ -34,16 +34,64 @@ function check_answer() {
                                   alert("You got it right!");
                                   window.location.href = "puzzle2.html";
                                 }
+                                else
+                                {
+                                  alert("try again!");
+                                }
+                              }
+                              else
+                              {
+                                alert("try again!");
                               }
                             }
+                            else
+                            {
+                              alert("try again!");
+                            }
+                          }
+                          else
+                          {
+                            alert("try again!");
                           }
                         }
+                        else
+                        {
+                          alert("try again!");
+                        }
                       }
+                  else
+                  {
+                    alert("try again!");
+                  }
+                }
+                else
+                {
+                  alert("try again!");
                 }
               }
+              else
+              {
+                alert("try again!");
+              }
+            }
+            else
+            {
+              alert("try again!");
             }
           }
+          else
+          {
+            alert("try again!");
+          }
         }
+        else
+        {
+          alert("try again!");
+        }
+      }
+      else 
+      {
+        alert("try again!"); 
       }
     }
   }
