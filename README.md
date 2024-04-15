@@ -1,6 +1,7 @@
 # Suhana's Caltech Cryptograms!
 
 Welcome to my cryptogram game! Inside, there are three cryptogram puzzles of my favorite parts of Caltech that I saw on my visit this year.
+Link: https://littlebudgie.github.io/suhana-cryptogram/
 
 An overview:
 1. There are three puzzles in total that must be solved in order.
