@@ -12,6 +12,14 @@ function check_answer() {
         alert("You got it right!");
         window.location.href = "puzzle3.html";
       }
+      else
+      {
+        alert("try again!");
+      }
+    }
+    else
+    {
+      alert("try again!");
     }
   }
   else
