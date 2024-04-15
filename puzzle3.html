@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="puzzle.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="puzzle3.js"></script>
+  <h1> Suhana's Caltech Cryptograms! </h1>
+  <p class = "paragraph"> Puzzle Three: Dining </p>
+  <form onsubmit = "check_answer(); return false">
+  <input type="text" class = "text-input new-word" id = "one-one" placeholder = "Y (2)">
+    <input type="text" class = "text-input" id = "one-two" placeholder = "R (2)"> 
+    <input type="text" class = "text-input" id = "one-three" placeholder = "W (2)"> 
+  <input type="text" class = "text-input new-word" id = "two-one" placeholder = "W (2)">
+    <input type="text" class = "text-input" id = "two-two" placeholder = "P (2)"> 
+    <input type="text" class = "text-input" id = "two-three" placeholder = "P (2)">
+    <input type="text" class = "text-input" id = "two-four" placeholder = "Y (2)"> 
+  <input type="text" class = "text-input new-word" id = "three-one" placeholder = "F (1)">
+    <input type="text" class = "text-input" id = "three-two" placeholder = "T (1)">
+    <input type="text" class = "text-input" id = "three-three" placeholder = "D (1)">
+    <input type="text" class = "text-input" id = "three-four" placeholder = "R (2)">
+  <br> <br>
+  <input type="submit" id = "submit-button" value="Submit">
+  </form>
+  <button id = "hint-button" onClick = "get_hint()"> Hint! </button>
+  <p id = "hint"> Hint: I grabbed hot chocolate with my friend here during my visit! </p>
+</body>
+
+</html>
