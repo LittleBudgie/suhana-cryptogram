@@ -13,6 +13,14 @@ function check_answer() {
         alert("You got it right!");
         window.location.href = "index.html";
       }
+      else
+      {
+        alert("try again!");
+      }  
+    }
+    else
+    {
+      alert("try again!");
     }
   }
   else
